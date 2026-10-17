@@ -1,10 +1,18 @@
-# Harshvardhan Deshmukh | Personal Portfolio
+<div align="center">
 
-A responsive, single-page personal portfolio built with semantic HTML5 and modern CSS3, with no frameworks or external dependencies.
+# 💻 Harshvardhan Deshmukh | Portfolio
 
-**Live site:** https://your-site-name.netlify.app
+**A fast, responsive, dark-themed developer portfolio built with pure HTML & CSS.**
+No frameworks. No libraries. Just clean code.
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-2dd4bf?style=for-the-badge&logo=netlify&logoColor=white)](https://your-site-name.netlify.app)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ![Portfolio preview](images/screenshot.png)
+
+</div>
 
 ---
 
@@ -88,4 +96,3 @@ Changing these values updates the entire site.
 - GitHub: [@Harshvardhan2612](https://github.com/Harshvardhan2612)
 - LinkedIn: [Add your profile link](#)
 - Email: your-email@example.com
-
