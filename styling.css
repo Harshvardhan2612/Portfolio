@@ -1,0 +1,555 @@
+body{
+    background-color: #0b0f14;
+    color: #e6edf3;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+@font-face{
+    src:url("NotoSansMono.ttf");
+    font-family: Noto;
+}
+
+.nameHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 110px;
+
+}
+
+.nameHeading h1 {
+    line-height: 1.05;
+    margin: 0;
+}
+
+.my_name_is{
+    font-family: Noto; 
+    color:#2dd4bf;
+}
+
+.harsh{
+    color:#e6edf3;
+    font-size:32px;
+    line-height: 1.05;
+    margin-top: -20px;
+}
+
+.deshmukh{
+    color:#2dd4bf;
+    font-size:32px;
+    line-height: 1.05;
+    margin: 0px;
+}
+
+.shortIntro{
+    color: #8b98a9;
+    font-size:17px;
+}
+
+.buttons_top{
+    display: flex;
+    margin-top: 30px; 
+    font-size: 40px;
+    font-family: inherit;
+}
+
+.view_my_work{
+    background-color: #2dd4bf;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #2dd4bf;
+    border-radius: 10px;
+    border-style: solid;
+    color: #0b0f14;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contact_me{
+    margin-left: 16px;
+    font-size: 17px;
+    background-color: #0b0f14;
+    border-color: #2dd4bf;
+    border-radius: 10px;
+    border-style: solid;
+    color: #2dd4bf;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+    
+.about{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about_01{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: 50px;
+}
+
+.about_me{
+    font-size: 35px;
+    margin-top: -200px;
+}
+
+.about_detailed{
+    color: #8b98a9;
+    font-size:17px;
+}
+
+.skills{
+
+}
+
+.skills_02{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: -20px;
+
+}
+
+.what_I_work_with{
+    font-size: 35px;
+    margin-top: ;
+}
+
+.static-badge-button_1{
+   
+}
+
+.cpp{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.html{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.css{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.dsa{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.git{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.vs{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.netlify{
+    margin-left: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #1f2a37;
+    border-style: solid;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.projects{
+    margin-top: 150px;
+}
+
+.projects_03{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: -10px;
+}
+
+.things_I_built{
+    font-size: 35px;
+}
+
+.projects_row_1{
+    display: flex;
+    margin-top: 32px;
+}
+
+.google_clone{
+    background-color: #121923;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-color: #1f2a37;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    height: 250px;
+    margin-right: 15px;
+}
+.google_clone a {
+  text-decoration: none;
+}
+
+.google_homepage_clone{
+    font-size: 20px;
+}
+
+.para_google_clone{
+    color: #8b98a9;
+    font-size:13px;
+    margin-bottom: 6px;
+}
+
+.lang_used_1{
+    color:#2dd4bf;
+    font-size: 13px;
+}
+
+.live_btn{
+    border-width: 0px;
+    border-color: #121923;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.github_btn{
+    border-width: 0px;
+    border-color: #121923;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.portfolio_website{
+    background-color: #121923;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-color: #1f2a37;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: dotted;
+    width: 500px;
+    height: 250px;
+    margin-right: 15px;
+}
+
+.portfolio_website_heading{
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.para_protfolio_website{
+    color: #8b98a9;
+    font-size:13px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    margin-top: 0px;
+}
+
+.lang_used_2{
+    color:#2dd4bf;
+    font-size: 13px;
+    padding-bottom: 0px;
+}
+
+.In_progress_btn{
+    border-width: 0px;
+    border-color: #121923;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.next_project{
+    background-color: #121923;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-color: #1f2a37;
+    border-radius: 20px;
+    border-style: dotted;
+    border-width: 1px;
+    width: 500px;
+    height: 250px;
+}
+
+.my_next_project{
+    font-size: 20px;
+}
+
+.para_next_project{
+    color: #8b98a9;
+    font-size:13px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+}
+
+.lang_used_3{
+    color:#2dd4bf;
+    font-size: 13px;
+}
+
+.coming_soon_btn{
+    border-width: 0px;
+    border-color: #121923;
+    background-color: #121923;
+    color: #e6edf3;
+}
+
+.experience_04{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: -20px;
+    margin-top: 150px;
+}
+
+.experience_and_education{
+    font-size: 35px;
+}
+
+.experience_time{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: -20px;
+}
+
+.info_experience{
+    color: #8b98a9;
+    font-size:15px;
+    margin-top: -15px;
+}
+
+.contact{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_05{
+    font-family: Noto; 
+    color:#2dd4bf;
+    margin-bottom: 1px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.lets_connect{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.para_contact{
+    color: #8b98a9;
+    font-size:15px;
+    line-height: 1.05;
+    margin-bottom: px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.static-badge-button_2{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram_btn{
+    background-color: #2dd4bf;
+    font-size: 17px;
+    border-color: #2dd4bf;
+    border-radius: 10px;
+    border-style: solid;
+    color: #0b0f14;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.github1_btn{
+    margin-left: 16px;
+    font-size: 17px;
+    background-color: #0b0f14;
+    border-color: #2dd4bf;
+    border-radius: 10px;
+    border-style: solid;
+    color: #2dd4bf;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linkedin_btn{
+    margin-left: 16px;
+    font-size: 17px;
+    background-color: #0b0f14;
+    border-color: #2dd4bf;
+    border-radius: 10px;
+    border-style: solid;
+    color: #2dd4bf;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+.view_my_work,
+.contact_me,
+.instagram_btn,
+.github1_btn,
+.linkedin_btn,
+.cpp,
+.html,
+.css,
+.dsa,
+.git,
+.vs,
+.netlify {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.view_my_work:hover,
+.contact_me:hover,
+.instagram_btn:hover,
+.github1_btn:hover,
+.linkedin_btn:hover,
+.cpp:hover,
+.html:hover,
+.css:hover,
+.dsa:hover,
+.git:hover,
+.vs:hover,
+.netlify:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(45, 212, 191, 0.35);
+}
+
+.view_my_work:active,
+.contact_me:active,
+.instagram_btn:active,
+.github1_btn:active,
+.linkedin_btn:active,
+.cpp:active,
+.html:active,
+.css:active,
+.dsa:active,
+.git:active,
+.vs:active,
+.netlify:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.experience-timeline {
+  position: relative;
+  margin-left: 10px;
+  padding-left: 25px; /* Creates space for the vertical line and dots */
+}
+
+/* The vertical line */
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 4px; /* Adjust this to align dead-center with your dots */
+  width: 2px;
+  background-color: #00ffcc; /* Matches your cyan/teal theme color */
+}
+
+/* Each item needs relative positioning */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* The Cyan Dots */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -25px;         /* Pulls the dot onto the line */
+  top: 6px;            /* Aligns dot vertically with the date text */
+  width: 10px;
+  height: 10px;
+  background-color: #00ffcc; /* Cyan theme color */
+  border-radius: 50%;  /* Makes it a circle */
+  z-index: 2;          /* Keeps dot above the line */
+}
+
