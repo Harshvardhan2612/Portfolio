@@ -82,13 +82,6 @@ Theme colours are defined once at the top of `style.css`:
 
 Changing these values updates the entire site.
 
-## Roadmap
-
-- [ ] Add further C++ and data structures projects
-- [ ] Add a downloadable resume
-- [ ] Add a manual theme toggle using JavaScript
-- [ ] Add a working contact form
-
 ## Contact
 
 - GitHub: [@Harshvardhan2612](https://github.com/Harshvardhan2612)
