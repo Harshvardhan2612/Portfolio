@@ -10,8 +10,6 @@ No frameworks. No libraries. Just clean code.
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-![Portfolio preview](images/screenshot.png)
-
 </div>
 
 ---
