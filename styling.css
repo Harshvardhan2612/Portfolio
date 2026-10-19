@@ -75,6 +75,7 @@ body{
 .contact_me{
     margin-left: 16px;
     font-size: 17px;
+    text-decoration: none;
     background-color: #0b0f14;
     border-color: #2dd4bf;
     border-radius: 10px;
