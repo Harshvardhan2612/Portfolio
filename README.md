@@ -92,5 +92,5 @@ Changing these values updates the entire site.
 ## Contact
 
 - GitHub: [@Harshvardhan2612](https://github.com/Harshvardhan2612)
-- LinkedIn: [Add your profile link](#)
-- Email: your-email@example.com
+- LinkedIn: [www.linkedin.com/in/harshvardhan-deshmukh-ab662641b](https://www.linkedin.com/in/harshvardhan-deshmukh-ab662641b)
+- Email: harshvardhandeshmukh2612@gmail.com
